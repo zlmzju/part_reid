@@ -1,0 +1,20 @@
+#reid online triplet network
+name: "ReID_Net"
+#input:"data"
+#input_dim:1
+#input_dim:3
+#input_dim:160
+#input_dim:80
+layer {
+  name: "data"
+  type: "Python"
+  top: "data"
+  top: "label"
+  python_param {
+    module: 'reid_layer.data_layer'
+    layer: 'DataLayer'
+    param_str: "{'batch_size':300,     'mean': (104, 117, 123),     'root_folder': '/home/liming/project/reid/dataset/cuhk03/cuhk03_release/data/',     'source': '/home/liming/project/reid/dataset/cuhk03/source/train.txt',     'trans': True, 'mirror': False, 'pad': 0,   'shape': (160, 80)}"
+  }
+  include: { phase: TRAIN }
+}
+

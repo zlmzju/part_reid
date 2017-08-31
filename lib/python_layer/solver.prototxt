@@ -1,0 +1,16 @@
+net: "demo.prototxt"
+# The learning rate policy
+base_lr: 0.01 
+lr_policy: "step"
+stepsize:20000
+gamma: 0.2
+# other hyper parameters
+momentum: 0.9
+weight_decay: 0.0002
+# Display every 20 iterations
+display: 20
+average_loss: 20
+# The maximum number of iterations
+max_iter: 100000
+# snapshot intermediate results
+

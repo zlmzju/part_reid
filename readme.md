@@ -4,7 +4,17 @@
 [Xi Li](http://mypage.zju.edu.cn/xilics), 
 [Yueting Zhuang](http://mypage.zju.edu.cn/0089133),
 and [Jingdong Wang](https://jingdongwang2017.github.io/). “Deeply-Learned Part-Aligned Representations for Person Re-Identification.” Proceedings of the International Conference on Computer Vision (ICCV), 2017.
-([arXiv paper](https://arxiv.org/abs/1707.07256))
+([paper](http://openaccess.thecvf.com/content_iccv_2017/html/Zhao_Deeply-Learned_Part-Aligned_Representations_ICCV_2017_paper.html))
+
+```
+@InProceedings{Zhao_2017_ICCV,
+author = {Zhao, Liming and Li, Xi and Zhuang, Yueting and Wang, Jingdong},
+title = {Deeply-Learned Part-Aligned Representations for Person Re-Identification},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+pages = {3219-3228},
+year = {2017}
+}
+```
 
 Contact: Liming Zhao (zlmzju@gmail.com)
 
